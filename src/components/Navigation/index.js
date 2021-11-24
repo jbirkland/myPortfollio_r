@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Resume from '../Resume'
 import './reset.css';
 import './style.css';
 
-function Navigation() {
+function Navigation(props) {
+  // let [page, setPage] = useState("");
+  const handleClick = (e) => {
+    console.log(props)
+    console.log("is this clicked");
+    // props.setCurrentPage("Resume")
+  }
   return (
     <div>
       <nav>
@@ -14,9 +21,11 @@ function Navigation() {
                 <a href="#mywork">My Work</a>
             </li>
             <li>
-                <a href="#contactme">Contact Me</a>
+                <span href="#contactme">Contact Me</span>
             </li>
-            
+            <li>
+              <span id="resume" value="Resume" onClick = {handleClick}>My Resume</span>
+            </li>   
           </ul>
         </nav>
     </div>
@@ -24,3 +33,4 @@ function Navigation() {
 }
 
 export default Navigation
+// complete same setup with other nav items//
