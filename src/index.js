@@ -9,12 +9,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <>
-  <div> 
-    {/* <Header/>, */}
-    <App />
-    <Footer/>
-  </div>
-  <div className = "container"></div>
+    <div className = "container">
+      <div> 
+          {/* <Header/>, */}
+         <App />
+         <Footer/>
+      </div>
+    </div>
   </>,
   document.getElementById('root')
 );

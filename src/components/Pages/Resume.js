@@ -1,13 +1,13 @@
 import React from 'react'
 import Resumepdf from '../../images/resume1.pdf'
+import {BsFileEarmarkPdf} from "react-icons/bs"
 
 function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
-
-      <a id="resume" href= {Resumepdf} >My Resume</a> 
-      
+      <h2>Resume
+        <a href= {Resumepdf}><BsFileEarmarkPdf /></a> 
+      </h2>
       <h2>Front End Proficiencies</h2>
       <ul>
           <li>HTML</li>
