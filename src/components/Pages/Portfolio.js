@@ -19,8 +19,9 @@ export default function Portfolio() {
   <main>
 
     <section className="about-me-container"/>
+
     <h2 id="mywork">My Work</h2>
-    <ul className= "jjb07">
+      <ul className= "jjb07">
       
         <li className= "dropdown"> 
             <img className="prework dropbtn" alt="prework img" src={IconMa}
