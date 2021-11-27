@@ -1,14 +1,13 @@
 import React from 'react'
 import Profilepic from '../../images/profile_pic.b.jpg'
-import './reset.css';
-import './style.css';
+
 
 const About = () => {
   return (
-    <section class="about-me-container">   
+    <section className="about-me-container">   
           
              <h2 id="aboutme">About Me</h2> 
-             <div class= "apple">
+             <div className= "apple">
                <p>	I currently work as a Logistics Coordinator for a lumber company out of Minneapolis servicing commercial and high-end contractors. I direct a group of drivers and yard staff to complete daily tasks at hand and ensure efficient accurate deliveries.</p>
 
                <p> Previous to this I was an Operations Supervisor for an oxygen therapy company out of St. Paul. I oversaw a fleet of 25+ drivers and worked with our customer base in depth on a daily basis. This included residential customers along with nursing homes and hospitals. A few of the skills I inherited while working there include analyzing data, problem solving in a high stress environment, managing multiple tasks, and gain understanding of basic business concepts.	</p>
@@ -20,7 +19,7 @@ const About = () => {
               </p>
                
             </div>
-            <img src= {Profilepic} alt="Picture of Justin Birkland" id="profilepic"/>
+            <img id = "img1" src= {Profilepic} alt="Picture of Justin Birkland" id="profilepic"/>
 
       </section>
   )

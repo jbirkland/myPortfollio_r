@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from 'Header'
-import Footer from 'Footer'
+// import Header from './components/Header'
+import Footer from './components/Footer'
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
+  <>
   <div> 
-    <Header/>,
-    <App />,
-    <Footer/>,
-  </div>,
+    {/* <Header/>, */}
+    <App />
+    <Footer/>
+  </div>
+  <div className = "container"></div>
+  </>,
   document.getElementById('root')
 );
 

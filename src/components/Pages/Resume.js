@@ -1,16 +1,21 @@
 import React from 'react'
-
-import './reset.css';
-import './style.css';
+import Resumepdf from '../../images/resume1.pdf'
 
 function Resume() {
   return (
     <div>
+      <h1>Resume</h1>
+
+      <a id="resume" href= {Resumepdf} >My Resume</a> 
+      
       <h2>Front End Proficiencies</h2>
       <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>React</li>
+          <li>Bootstrap</li>
 
       </ul>
       <h2>Back End Proficiencies</h2>
@@ -18,7 +23,11 @@ function Resume() {
           <li>API's</li>
           <li>Node</li>
           <li>Express</li>
-
+          <li>SQL</li>
+          <li>Seqelize</li>
+          <li>Mongo</li>
+          <li>Mongoose</li>
+          <li>Axios</li>
       </ul>
     </div>
   )
