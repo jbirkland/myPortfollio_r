@@ -9,4 +9,4 @@ It is a single page application that uses react components to toggle from page t
 ![Portfolio_ss](https://user-images.githubusercontent.com/87788419/143790140-715048a1-2ed9-4c43-aba2-259648c2152e.png)
 
 ## Link to the Deployed Page
- https://github.com/jbirkland/my_portfolio.r
+https://jbirkland.github.io/my_portfolio.r/
